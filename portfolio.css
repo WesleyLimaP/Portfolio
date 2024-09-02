@@ -1,0 +1,106 @@
+*{
+    background-image: url("fundos/portfolio.jpg"); background-size: cover; background-repeat: no-repeat;
+    border: 0px;
+    padding: 0px;
+;
+}
+
+.projetos{
+   
+    height: 700px;
+    display: flex;
+    align-items: center;
+    
+    
+    
+   
+   
+}
+.projetos > div{
+    border-style: solid;
+    width: 30%;
+    height: 43%;
+    box-sizing: border-box;
+    background-color: black;
+    background-image: none;
+    border-radius: 30px;
+
+}
+#projeto1{
+    display: inline-block;
+    position: relative;
+    margin-left: 50px;
+}
+#projeto1 img{
+height: 300px;
+width: 449px;
+box-sizing: border-box;
+border-radius: 30px;
+display: block;
+transition: opacity 0.5s ease;
+   
+
+}
+#projeto1 img:hover{
+   opacity: 0;
+
+}
+#projeto1:hover #texto{
+    display: block;
+}
+#projeto2{
+    margin: 20px;
+    display: inline-block;
+    position: relative;
+}
+#texto{
+        position: absolute;
+        background-image: none;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        display: none;
+        /*integra o video a imagem apaecendo apenas quando a imagem sumir*/
+       
+     
+}
+#projeto2:hover #texto{
+    display: block;
+}
+#projeto2 img{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+    box-sizing: border-box;
+    transition: opacity 0.5s ease;
+   
+
+}
+#projeto2 img:hover{
+   opacity: 0;
+
+}
+#projeto3 img{
+    height: 300px;
+    width: 449px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    display: block;
+    transition: opacity 0.5s ease;
+       
+    
+    }
+    #projeto3 img:hover{
+       opacity: 0;
+    
+    }
+    #projeto3{
+        display: inline-block;
+        position: relative;
+        margin-left: 50px;
+    }
+    #projeto3:hover #texto{
+        display: block;
+    }

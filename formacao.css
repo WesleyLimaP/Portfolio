@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+ 
+}
+body{
+    background-image: url("fundos/formacaoimg.jpg"); background-size: cover; background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    align-items: center;
+}
+nav{
+    height: 30px;
+}
+.container{
+    border-style: solid;
+    border-color: rgb(20, 2, 2);
+    background-color: rgba(0, 0, 0, 0.807);
+    color: white;
+    width: 500px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 30px;
+    align-items: center;
+    padding: 50px;
+
+}
