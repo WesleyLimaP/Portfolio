@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    /*retira toda configuracao padrao da pagina*/
+   
+}
+body{
+    background-color:black;
+    color: rgb(228, 221, 199);
+    background-image: url("fundos/89781.jpg"); background-size: cover; background-repeat: no-repeat; background-position: center;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 0.166);
+    height: 50px;
+    justify-content: space-between;
+    display: flex;
+    color: aliceblue;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.containerPrincipal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.menu > li:hover{
+    color: rgb(238, 226, 60);
+}
+
+ul.menu {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none; /* Remove os marcadores */
+    padding-left: 0px; /* Remove o recuo da lista */
+
+}
+
+ul.menu li {
+    margin: 20px;
+}
+
+
+#minhaFoto{
+    height: 400px;
+    border-radius: 30px;
+    box-sizing: border-box;
+}
+#minhaFoto:hover{
+    height: 410px;
+
+}
+
+
+#containerDescricao{
+    
+    border-style: solid;
+    border-radius: 30px;
+    height: 300px;
+    width: 20%;
+    text-align: left;
+    padding: 50px;
+    line-break: anywhere;
+    background-color: rgba(0, 0, 0, 0.166)
+
+    
+    
+}
+#containerDescricao:hover{
+    border-style: solid;
+    border-radius: 30px;
+    height: 300px;
+    width: 20%;
+    text-align: left;
+    padding: 50px;
+    line-break: anywhere;
+    background-color: rgba(0, 0, 0, 0.433)
+
+    
+    
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.851);
+    height: 200px;
+    margin-top: 40px;
+}
+
+
